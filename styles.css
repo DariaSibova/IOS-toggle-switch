@@ -24,4 +24,16 @@
     -webkit-transition: .2s cubic-bezier(.55,0,.1,1);
     transition: .2s cubic-bezier(.55,0,.1,1);
   }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;border-radius: 50%;
+    -webkit-transition: .2s cubic-bezier(.55,0,.1,1);
+    transition: .2s cubic-bezier(.55,0,.1,1);
+  }
   
